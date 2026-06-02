@@ -1,7 +1,7 @@
-#While in the CLI
+**#While in the CLI**
 ~$ represents the directory we're currently accessing
 
-# Identify the directory that you're in
+**#Identify the directory that you're in**
 PWD
 
 # To log out of the server
