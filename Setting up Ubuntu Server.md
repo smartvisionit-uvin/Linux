@@ -33,6 +33,11 @@
 
 <img width="1113" height="821" alt="image" src="https://github.com/user-attachments/assets/7b58940c-19d7-417b-bafb-adbc9bbaadcb" />
 
+9. Wait for the Installation to finish
+
+<img width="1191" height="800" alt="image" src="https://github.com/user-attachments/assets/d927e9a7-59e1-422b-9277-5b38540eb493" />
+
+
 
 
 
