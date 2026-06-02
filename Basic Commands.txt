@@ -22,9 +22,23 @@ Sudo reboot
 sudo apt install unattended-upgrades
 -- Once entered, check if the server already has the newest version of the package
 
-# As a part of the above automation, it would be useful to set up the server to automatically restart to complete the installation
+# As a part of the above automation, it would be useful to set up the server to restart to complete the installation automatically
 # To do this we need to install another package
 sudo apt install update-notifier-common
+
+#Check the configuration in the APT config directory. APT is a powerful tool handling the installation and removal of oftware
+cd /etc/apt/apt.conf.d
+
+#To list contents
+LS
+
+#Open 50 unattended Updates file
+sudo nano 50unattended-upgrades
+
+
+
+
+
 
 
 
