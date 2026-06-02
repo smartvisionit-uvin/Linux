@@ -43,8 +43,12 @@ Remeber to change the installation media/remove it before restarting
 
 <img width="818" height="529" alt="image" src="https://github.com/user-attachments/assets/c4b1e74a-fe3f-4f1e-9d46-9af3010a1e0c" />
 
+10. Run:
 
+    sudo apt update
+    sudo apt upgrade
 
+Wait for the installation to finish and run
 
 
 
