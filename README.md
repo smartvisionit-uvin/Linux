@@ -18,6 +18,75 @@ Enter
 # Restart the VM
 Sudo reboot
 
+# Networking
+
+# Check network connections
+
+ip a
+
+# To make changes
+sudo nano /etc/netplan/00-installer-config.yaml
+
+*If you are still following this tutorial, note that 00-installer-config.yaml (in the /etc/netplan/ folder) has been replaced by 50-cloud-init.yaml in the same folder
+
+
+# Adding a new user
+sudo adduser David
+Enter password,full name etc.
+
+# Enter Home Directory
+cd /home
+ls
+
+# Make admin
+sudo usermod -a -G sudo David
+Password
+
+# Switch users
+su - David
+Enter password
+whoami
+exit
+
+# Switch to root (no longer need to enter sudo)
+sudo su -
+apt update
+
+# List user accounts
+compgen -u
+
+# Removing a user
+sudo del user david
+password
+
+# Enable the root account
+sudo passwd root
+create a new password
+
+Exit and login as root.
+Command pompt will chnage to # instead of usual $
+
+# Disable the root account
+sudo passwd -l root
+
+# Rename the server
+hostname
+hostnamectl
+sudo hostnamectl set-hostname newservername
+hostname
+
+# If name on CMD line hasn't updated
+exec bash
+
+# If you update name of the servers also work on updarting the IP -> Hostname
+cat /etc/hosts
+sudo nano /etc/hosts
+
+-- update the hostname and enter the new name
+ctrl + x
+
+-------------------------------------------------------------------------
+
 # Automatic updates
 sudo apt install unattended-upgrades
 -- Once entered, check if the server already has the newest version of the package
@@ -82,16 +151,6 @@ sudo systemctl status unattended-upgrades
 
 <img width="1316" height="548" alt="image" src="https://github.com/user-attachments/assets/155c61e2-68ba-418b-a8d6-057ae840c96d" />
 
-# Networking
-
-# Check network connections
-
-ip a
-
-# To make changes
-sudo nano /etc/netplan/00-installer-config.yaml
-
-*If you are still following this tutorial, note that 00-installer-config.yaml (in the /etc/netplan/ folder) has been replaced by 50-cloud-init.yaml in the same folder
 
 # Adding a Desktop To The Server
 # Install a lightweight desktop environment (LXDE)
@@ -103,63 +162,6 @@ sudo reboot
 
 # Look into Installing Cockpit too for web management (not included here)
 
-
-
-# Adding a new user
-sudo adduser David
-Enter password,full name etc.
-
-# Enter Home Directory
-cd /home
-ls
-
-# Make admin
-sudo usermod -a -G sudo David
-Password
-
-# Switch users
-su - David
-Enter password
-whoami
-exit
-
-# Switch to root (no longer need to enter sudo)
-sudo su -
-apt update
-
-# List user accounts
-compgen -u
-
-# Removing a user
-sudo del user david
-password
-
-# Enable the root account
-sudo passwd root
-create a new password
-
-Exit and login as root.
-Command pompt will chnage to # instead of usual $
-
-# Disable the root account
-sudo passwd -l root
-
-# Rename the server
-hostname
-hostnamectl
-sudo hostnamectl set-hostname newservername
-
-hostname
-
-# If name on CMD line hasn't updated
-exec bash
-
-# If you update name of the servers also work on updarting the IP -> Hostname
-cat /etc/hosts
-sudo nano /etc/hosts
-
--- update the hostname and enter the new name
-ctrl + x
 
 
 
