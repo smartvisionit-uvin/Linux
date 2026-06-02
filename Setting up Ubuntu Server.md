@@ -50,8 +50,7 @@ Remeber to change the installation media/remove it before restarting
 
 Wait for the installation to finish and run
 
-
-
+   sudo reboot
 
 
 
