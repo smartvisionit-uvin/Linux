@@ -1,4 +1,4 @@
-**#While in the CLI**
+**# While in the CLI**
 ~$ represents the directory we're currently accessing
 
 **#Identify the directory that you're in**
