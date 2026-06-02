@@ -163,6 +163,10 @@ sudo reboot
 # Look into Installing Cockpit too for web management (not included here)
 
 
+# Adding a new Drive
+# List Drives connected to the server
+lsblk
+
 
 
 
