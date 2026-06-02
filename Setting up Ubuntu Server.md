@@ -37,6 +37,14 @@
 
 <img width="1191" height="800" alt="image" src="https://github.com/user-attachments/assets/d927e9a7-59e1-422b-9277-5b38540eb493" />
 
+<img width="1281" height="815" alt="image" src="https://github.com/user-attachments/assets/fd64c384-465a-4763-879f-81c1ac80644b" />
+
+Remeber to change the installation media/remove it before restarting
+
+<img width="818" height="529" alt="image" src="https://github.com/user-attachments/assets/c4b1e74a-fe3f-4f1e-9d46-9af3010a1e0c" />
+
+
+
 
 
 
