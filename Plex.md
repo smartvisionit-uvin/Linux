@@ -79,7 +79,7 @@ services:
 
   **To Start Plex run:**
 
-    sudo docker compose up -d
+  sudo docker compose up -d
 
 <img width="1245" height="136" alt="image" src="https://github.com/user-attachments/assets/eb47885d-c5f7-49e4-b618-9a9556ed8906" />
 
