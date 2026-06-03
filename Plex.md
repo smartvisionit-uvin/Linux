@@ -55,7 +55,9 @@ sudo mkdir -p /opt/plex/config
 
 **Create the Docker Compose File**
 
-```nano docker-compose.yml```
+```
+nano docker-compose.yml
+```
 
 **Paste this:**
 
@@ -81,14 +83,17 @@ services:
 
   **To Start Plex run:**
 
+```
   sudo docker compose up -d
+```
 
 <img width="1245" height="136" alt="image" src="https://github.com/user-attachments/assets/eb47885d-c5f7-49e4-b618-9a9556ed8906" />
 
 To verify:
 
+```
 docker ps
-
+```
 **Now head over to your IP and confirm Plex is installed**
 
 http://192.168.20.20:32400/web
