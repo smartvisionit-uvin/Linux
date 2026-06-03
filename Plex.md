@@ -75,9 +75,9 @@ services:
     restart: unless-stopped
 
 
-    **Enter ctrl + O and ctrl + X to save**
+ **Enter ctrl + O and ctrl + X to save**
 
-    **To Start Plex run:**
+  **To Start Plex run:**
 
     sudo docker compose up -d
 
