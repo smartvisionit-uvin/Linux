@@ -52,11 +52,13 @@ sudo apt update
 sudo apt upgrade
 ```
 
-    <img width="1048" height="965" alt="Screenshot 2026-06-02 195546" src="https://github.com/user-attachments/assets/625d1ed0-9707-4e2e-af81-e05742d1317a" />
+<img width="1048" height="965" alt="Screenshot 2026-06-02 195546" src="https://github.com/user-attachments/assets/625d1ed0-9707-4e2e-af81-e05742d1317a" />
 
 Wait for the installation to finish and run
 
-   sudo reboot
+```
+sudo reboot
+```
 
 
 
