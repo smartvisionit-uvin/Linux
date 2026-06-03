@@ -91,6 +91,11 @@ docker ps
 
 http://192.168.20.20:32400/web
 
+Sign up with Plex with a Free account and add the media libraries we created before
+
+<img width="786" height="789" alt="image" src="https://github.com/user-attachments/assets/f96aa754-5409-47af-bb51-b13eac606b89" />
+
+
 
 
 
