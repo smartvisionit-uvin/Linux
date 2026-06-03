@@ -50,6 +50,7 @@ sudo mkdir -p /opt/plex/config
 **Create Plex project folder (can be under your home diretory)**
 
 ``` mkdir ~/plex ```
+
 ``` cd ~/plex ```
 
 **Create the Docker Compose File**
