@@ -18,7 +18,7 @@ Give the user access to the media folder
 
 **Install SMP support on Ubuntu**
 
-sudo apt update
+``` sudo apt update ```
 
 sudo apt install cifs-utils
 
