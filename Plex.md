@@ -49,15 +49,16 @@ sudo mkdir -p /opt/plex/config
 
 **Create Plex project folder (can be under your home diretory)**
 
-mkdir ~/plex
-cd ~/plex
+``` mkdir ~/plex ```
+``` cd ~/plex ```
 
 **Create the Docker Compose File**
 
-nano docker-compose.yml
+```nano docker-compose.yml```
 
 **Paste this:**
 
+```yaml
 services:
   plex:
     image: lscr.io/linuxserver/plex:latest
@@ -73,7 +74,7 @@ services:
       - /mnt/media/Movies:/movies
       - /mnt/media/TV:/tv
     restart: unless-stopped
-
+```
 
  **Enter ctrl + O and ctrl + X to save**
 
