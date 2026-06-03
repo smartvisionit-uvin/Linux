@@ -12,13 +12,13 @@ for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker c
 curl -fsSL https://get.docker.com -o get-docker.sh
 ```
 
-#Install docker enginge on Ubuntu
+**Install docker enginge on Ubuntu**
 
 ```
 sudo sh get-docker.sh
 ```
 
-Verify docker installation
+**Verify docker installation**
 
 ```
 docker version
