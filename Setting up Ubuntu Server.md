@@ -45,9 +45,10 @@ Remeber to change the installation media/remove it before restarting
 
 10. Run:
 
-``` sudo apt update
 ```
- ```
+sudo apt update
+```
+```
 sudo apt upgrade
 ```
 
