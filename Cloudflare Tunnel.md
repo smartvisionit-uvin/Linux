@@ -45,6 +45,18 @@ Click add published application and add a route. In this example, I will be addi
 
 <img width="924" height="746" alt="image" src="https://github.com/user-attachments/assets/85321841-d6ac-452b-ad34-d2e8b7461363" />
 
+Set up LDP for additional security.
+
+Click on Zero trust on the left pane and select protect an application with access. Add one time pin.
+
+<img width="822" height="676" alt="image" src="https://github.com/user-attachments/assets/051204ce-6a62-4dcc-8454-815330585e00" />
+
+
+<img width="1885" height="859" alt="image" src="https://github.com/user-attachments/assets/9c1f1ad1-3456-47d1-a1aa-5b13585f1ca3" />
+
+
+<img width="1143" height="336" alt="image" src="https://github.com/user-attachments/assets/b891e8ba-ad54-4b26-b2c5-63a02f8402b5" />
+
 
 
 
