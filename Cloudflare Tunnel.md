@@ -58,6 +58,9 @@ Click on Zero trust on the left pane and select protect an application with acce
 <img width="1143" height="336" alt="image" src="https://github.com/user-attachments/assets/b891e8ba-ad54-4b26-b2c5-63a02f8402b5" />
 
 
+Now it authenticates via a pin with our provided email before logging in:
+
+<img width="936" height="668" alt="image" src="https://github.com/user-attachments/assets/ff092d20-fb55-4841-ad16-5b43de7e2a65" />
 
 
 
